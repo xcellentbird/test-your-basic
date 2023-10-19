@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-your-basic"
+version = "0.1.0"
+description = ""
+authors = ["Michael <xcellentbird@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.16"
+streamlit = "^1.27.2"
+langchain = "^0.0.319"
+openai = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
